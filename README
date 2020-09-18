@@ -1,0 +1,8 @@
+Vedem cum sunt trasmise fisierel html catre servar 
+- fuctia get cere un respos catre servar ('/') 
+si este trimisa fisierul prin res.sendFile(__dirname + "/numeleFiseruluiAlocatAcesteFuncitGet.html");
+- functia post trimite care servar ('/') un reqest si primeste si un raspuns
+e bine de stiut ca get si post nu indodeauna asteapta un resposi/reqest de la root('/')
+poate fi si alt path cu ar fi: ("/bmiCalculator"),
+
+functia get cat si post are urmatoarele caracteristi ("caleaCatreFisier", functia callBack(req,res))
